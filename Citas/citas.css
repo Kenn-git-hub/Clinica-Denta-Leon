@@ -1,0 +1,97 @@
+/*.contenedor-citas{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 0;
+    background-color: #f0f5f7;
+}
+.titulo-cita{
+    margin-bottom: 20px ;
+}
+.cont-form{
+    
+    width: 800px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+#title{
+    margin-bottom: 15px;
+}
+.compl-form{
+    font-size:15px;
+}*/
+
+.contenedor-citas{
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+}
+
+.cont-form{
+    box-sizing: border-box;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px #0005;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.titulo-cita{
+    text-align: center;
+}
+
+#title, .compl-form{
+    margin-bottom: 20px;
+}
+#title{
+    color: #3538ec;
+    padding-bottom: 20px;
+    border-bottom: dotted 1px black;
+}
+.compl-form{
+    font-weight: 700;
+}
+
+.cont-form-cita{
+    display: flex;
+    flex-direction: column;
+}
+.inp, .coment, .fecha-hora input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.fecha-hora{
+    display: flex;
+    justify-content: space-between;
+}
+.fecha-hora input{
+    width: 47%;
+}
+.coment{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.btn-cita{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 700;
+}

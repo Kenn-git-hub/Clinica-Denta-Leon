@@ -1,0 +1,93 @@
+.cont-inicio{
+    width: 100%;
+    justify-content: center;
+    background-image: url(fondoincio.png);
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+}
+.cont-inicio .cont-img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    background: #0007;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-inicio{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+}
+
+/*body*/
+
+.cont-body{
+    background-color: #f4f4f4;
+    min-width: 400px;
+    box-sizing: border-box;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.contain-cita{
+    margin: 0 15px;
+    width: 400px;
+}
+.contain-cita p{
+    margin-bottom: 30px;
+}
+.contain-cita a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #c084d6;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.contain-cita a:hover{
+    background-color: #363636;
+}
+.cont-es-hor{
+    width: 400px;
+    display: flex;
+}
+.cont-es-hor i{
+    color: #74d7e8;
+    font-size: 50px;
+}
+.cont-text-hor, .cont-text-esp{
+    margin: 0 30px;
+}
+.cont-text-esp h3 a, .cont-text-hor h3 a{
+    text-decoration: none;
+    color: black;
+}
+.cont-text-esp a:hover, .cont-es-hor a:hover{
+    color: #8628a8;
+}
+.contain-cita h2, .cont-es-hor h3{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 952px){
+    .cont-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contain-cita, .cont-es-hor{
+        margin-bottom: 30px;
+    }
+}
